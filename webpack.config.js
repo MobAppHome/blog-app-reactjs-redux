@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: __dirname,
     publicPath: '/',
-    filename: './dist/bundle.js'
+    filename: './blog-app-reactjs-redux/dist/bundle.js'
   },
   module: {
     loaders: [{
