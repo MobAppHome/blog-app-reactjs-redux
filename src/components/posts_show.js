@@ -29,7 +29,7 @@ class PostsShow extends Component {
     }
 
     return (
-      <div>
+      <div id="postShow">
         <Link to="/">Back To Index</Link>
         <button
           className="btn btn-danger pull-xs-right"
@@ -37,7 +37,7 @@ class PostsShow extends Component {
         >
           Delete Post
         </button>
-        <h3>{post.title}</h3>
+        <h3 id="postTitle">{post.title}</h3>
         <h6>Categories: {post.categories}</h6>
         <p>{post.content}</p>
       </div>
